@@ -7,23 +7,38 @@
     box-sizing: border-box;
 }
 
-/* html {
+html {
     font-size: 62.5%;
-} */
+    /* 1rem = 10px */
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 .container {
+    /* 120rem = 1200px */
     width: 120rem;
     margin: 0 auto;
+    display: flex;
 }
 
 a {
     text-decoration: none;
 }
 
+
 /*=========================================
             Hero Section Styling
 ===========================================*/
+.content_box {
+    width: 50%;
+}
+
+.img_box {
+    width: 50%;
+}
+
+.img_box img {
+    width: 100%;
+}

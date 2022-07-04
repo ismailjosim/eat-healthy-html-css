@@ -20,19 +20,57 @@ body {
     /* 120rem = 1200px */
     width: 120rem;
     margin: 0 auto;
-    display: flex;
 }
 
 a {
     text-decoration: none;
 }
 
-
 /*=========================================
             Hero Section Styling
 ===========================================*/
+.container {
+    padding: 5rem 0;
+    display: flex;
+
+}
+
 .content_box {
     width: 50%;
+
+}
+
+.hero_heading {
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #575757;
+}
+
+.hero_heading span {
+    color: #FBA24F;
+}
+
+.body_text {
+    font-size: 1.8rem;
+    color: #828282;
+    font-weight: 400;
+    margin: 3rem 2rem 5rem 0;
+}
+
+.btn {
+    background: linear-gradient(45deg, #FBA24F, #FF1E1E);
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    transition: 0.3s ease all;
+}
+
+.btn:hover {
+    background: linear-gradient(-45deg, #FBA24F, #FF1E1E);
 }
 
 .img_box {
@@ -40,5 +78,6 @@ a {
 }
 
 .img_box img {
-    width: 100%;
+    width: 90%;
+
 }
